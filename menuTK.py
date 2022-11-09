@@ -43,7 +43,7 @@ def menu_tk(choix_de_partie):
                 menu.bind("<Button-1>", choix_boutton_niveau)
             elif 401 <= y and y <= 442: # Bouton Credit
                 credit = Toplevel(menu)
-                texte = Label(credit, text="### Projet NSI ###\n --- Allan & Guillaume ---")
+                texte = Label(credit, text="### Projet NSI ###\n --- Allan & Guillaume ---\nhttps://github.com/Alljorn/Demineur")
                 texte.pack()
             elif 473 <= y and y <= 516: # Bouton Quitter
                 # Ferme la fen^tre
